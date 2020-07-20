@@ -1,0 +1,42 @@
+{
+  "name": "arden",
+  "version": "0.2.0",
+  "description": "Arden adds REST routing capabilities to create full-featured WebSocket apps",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "ts-node-dev --no-deps --respawn ./src/index.ts",
+    "build:clean": "rimraf dist",
+    "build:code": "tsc",
+    "build:minify": "terser-folder dist -e -o dist",
+    "build": "npm run build:clean && npm run build:code && npm run build:minify"
+  },
+  "repository": {
+    "url": "https://github.com/manuel-di-iorio/arden"
+  },
+  "keywords": [
+    "arden",
+    "websocket",
+    "socket",
+    "http",
+    "rest",
+    "router",
+    "request",
+    "client",
+    "server"
+  ],
+  "author": "Manuel Di Iorio",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "eslint": "^7.4.0",
+    "eslint-config-standard-with-typescript": "^18.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "rimraf": "^3.0.2",
+    "terser-folder": "^2.0.0",
+    "ts-node-dev": "^1.0.0-pre.52",
+    "typescript": "^3.9.7"
+  }
+}

@@ -45,6 +45,7 @@ server.on('connection', (socket) => {
     arden.onGet("/todos", () => todos)
 })
 ```
+![Network test](https://i.imgur.com/YuBdi5t.png)
 
 ---
 

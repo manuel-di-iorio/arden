@@ -1,6 +1,6 @@
 ![Arden logo](https://i.imgur.com/rxbPy7f.png)
 
-### Arden - REST routing capabilities to create full-featured WebSocket apps
+### Arden - API router based on WebSockets
 
 [![npm version](https://badge.fury.io/js/arden.svg)](https://badge.fury.io/js/arden)
 ![Dependencies](https://img.shields.io/badge/Dependencies-none-darklime.svg)
